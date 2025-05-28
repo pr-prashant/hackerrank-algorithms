@@ -52,7 +52,7 @@ public class GFG {
 
             int[] arr = IntArray.input(br, n);
 
-            Solution obj = new Solution();
+            SolutionGFG obj = new SolutionGFG();
             ArrayList<Integer> res = obj.subarraySum(arr, n, s);
 
             IntArray.print(res);
@@ -62,7 +62,7 @@ public class GFG {
 
 // } Driver Code Ends
 
-class Solution {
+class SolutionGFG {
     public static ArrayList<Integer> subarraySum(int[] arr, int n, int s) {
         int leftInd = -1, rightInd = -1;
         ArrayList<Integer> arrayList = new ArrayList<>();

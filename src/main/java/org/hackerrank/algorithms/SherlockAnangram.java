@@ -13,14 +13,12 @@ package org.hackerrank.algorithms;
 
 import java.io.*;
 import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
  * @author Prashant Patel
  */
-class Result {
+class Result2 {
 
     /*
      * Complete the 'sherlockAndAnagrams' function below.
@@ -61,7 +59,7 @@ public class SherlockAnangram {
             try {
                 String s = bufferedReader.readLine();
 
-                int result = Result.sherlockAndAnagrams(s);
+                int result = Result2.sherlockAndAnagrams(s);
 
                 bufferedWriter.write(String.valueOf(result));
                 bufferedWriter.newLine();
