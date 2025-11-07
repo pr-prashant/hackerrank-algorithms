@@ -61,4 +61,19 @@ public class LCS {
         }
         return mn[m][n];
     }
+
+    private int lcs(String s1, String s2) {
+        int m = s1.length(), n = s2.length();
+        int[][] mn = new int[m+1][n+1];
+        for (int i = 0; i < mn.length; i++) {
+            mn[i][0] = 0;
+        }
+//        Arrays.fill(mn, 0);
+        Arrays.fill(mn[0], 0);
+        for (int i = 0; i < mn.length; i++) {
+            for (int j = 0; j < mn[0].length; j++) {
+                if (s1.charAt(i) == )
+            }
+        }
+    }
 }
